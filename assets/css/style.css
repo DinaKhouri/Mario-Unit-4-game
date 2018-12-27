@@ -1,0 +1,73 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body > div > div.row.pb-5 > div:nth-child(2) > img {
+  height: 25%;
+}
+
+.myblock {
+  width: 60px;
+  height: 60px;
+}
+
+.plant {
+  position: relative;
+  bottom: 5px;
+}
+
+#number {
+  position: relative;
+  left: 55px;
+}
+
+.number {
+  font-family: "Slackey", cursive;
+  color: rgb(250, 208, 51);
+  text-shadow: 0 0 3px #0b0b0b, 0 0 5px #0c0c0c;
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.myborder {
+  border-style: ridge;
+  border-width: 15px;
+  border-color: rgb(250, 208, 51);
+  height: 80px;
+  color: white;
+  background-color: rgb(57, 53, 53);
+  font-size: 2.2em;
+  text-align: center;
+  font-family: "Slackey", cursive;
+  padding-top: 7px;
+}
+
+.scoreborder {
+  padding-right: 0px;
+  float: right;
+}
+
+.mario {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  bottom: 220px;
+}
+
+.scoreBoard {
+  position: relative;
+  bottom: 50px;
+  left: -5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h3 {
+  position: relative;
+  bottom: 20px;
+}
