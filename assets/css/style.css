@@ -55,8 +55,8 @@ body > div > div.row.pb-5 > div:nth-child(2) > img {
 .mario {
   width: 100px;
   height: 150px;
-  position: relative;
-  bottom: 220px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .scoreBoard {
